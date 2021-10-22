@@ -7,7 +7,6 @@ lighter blue: #77aad9
 
 */
 
-
 .navBar{
     background: #F1B5B8;
     color: black;
@@ -65,7 +64,6 @@ lighter blue: #77aad9
     border-color: #77aad9;
     font-weight:900;
     text-decoration: underline;
-    
 }
 body{
     font-family: 'Roboto Slab', serif;
@@ -78,6 +76,9 @@ body{
     text-align: center;
 }
 .introDiv{
+    width: 40%;
+    position: absolute;
+    top: 350px;
     width: 40%;
     display: block;
     background-color: #77aad9;
@@ -96,6 +97,9 @@ background-color: #478ac9;
 text-align: center;
 }
 .readyDiv{
+    width: 40%;
+    position: absolute;
+    top: 850px;
     width: 40%;
     display: block;
     background-color: #77aad9;
@@ -117,7 +121,6 @@ text-align: center;
     cursor: pointer;
     font-family: 'Roboto Slab', serif;
     margin: 20px;
-    border: 20px;
     padding: 16px 31px;
     font-size: 25px;
     font-weight:900;
@@ -132,7 +135,7 @@ img{
     margin-right: auto;
     width: 40%;
     position: absolute;
-    top: 250px;
+    top: 450px;
     right: 120px;
     margin: 50px;
     border: 20px solid #4d4949;
@@ -141,6 +144,10 @@ img{
     
 }
 footer{
+    position: absolute;
+    top: 1600px;
+    width: 97.9%;
+    height: 2.5rem;
     background: #4d4949;
     color: rgb(255, 255, 255);
     height: 150px;

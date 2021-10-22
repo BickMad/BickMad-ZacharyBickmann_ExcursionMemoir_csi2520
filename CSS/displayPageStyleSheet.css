@@ -64,75 +64,90 @@ body{
     font-size: 25px;
     font-weight:900;
 }
-.newEntry{
-    width: 1700px;
-    height: 1000px;
-    text-align: center;
-    padding: 30px;
+.displayTable{
     position: absolute;
     top: 90%;
-    left: 50%;
+    left: 33%;
     transform: translate(-50%, -50%);
-    background: #77aad9;
+    text-align: center;
+    list-style: none;
+    text-align: center;
+    padding: 30px;
     border-radius: 20px;
-    border: 5px solid #000000;
+    table-layout: fixed;
+    width: 1000px;
 }
-.newEntry input[type = "text"], .logIn input[type = "password"]{
-    font-family: 'Roboto Slab', serif;
-    font-size: 25px;
-    font-weight:900;
-    border: 0;
-    background: none;
-    display: block;
-    margin: 30px auto;
-    text-align: center;
-    border: 2px solid #fad3d6;
-    padding: 14px 10px;
-    width: 275px;
-    outline: none;
-    color: rgb(255, 255, 255);
-    border-radius: 24px;
-    transition: 0.25s;
+.displayTable h1{
+    width: 400px;
+    font-size: 45px;
+    background-color: #fad3d6;
+    border-radius: 20px;
+    border: 3px solid black;
 }
-.newEntry textarea{
-    width: 1200px;
-    height: 350px;
-    font-family: 'Roboto Slab', serif;
-    font-size: 25px;
-    font-weight:900;
-    border: 0;
-    background: none;
-    display: block;
-    margin: 30px auto;
-    border: 2px solid #fad3d6;
-    padding: 14px 10px;
-    outline: none;
-    color: rgb(255, 255, 255);
-    border-radius: 24px;
-    transition: 0.25s;
+.displayTable h3{
+    width: 400px;
+    font-size: 35px;
+    background-color: #fad3d6;
+    border-radius: 20px;
+    border: 3px solid black;
+}
+.displayTable p{
+    width: 600px;
+    height: 175px;
+    float: left;
+    font-size: 30px;
+    background-color: #fad3d6;
+    border-radius: 10px;
+    border: 3px solid black;
 }
 
-
-.newEntry input[type = "submit"]{
-    border: 0;
-    background: none;
-    margin: 20px;
-    text-align: center;
-    border: 2px solid #fad3d6;
-    padding: 10px 14px;
-    width: 200px;
-    outline: none;
-    color: rgb(0, 0, 0);
-    border-radius: 24px;
-    transition: 0.25s;
-    font-size: 20px;
+.displayTable img{
+    width: 700px;
+    height: auto;
+    display: block;
+    float: right;
+    left: 50%;
+    border-radius: 20px;
 }
-.newEntry input[type = "submit"]:hover{
+.container{
+    display: block;
+    column-count: 2;
+    -moz-column-count: 2;
+    -webkit-column-count: 2;
+    width: 1000px;
+    height: 1000px;
+}
+
+.displayTable tr{
+    background-color: #77aad9;
+    display: block;
+    width: 1500px;
+    height: 500px;
+    margin: 40px;
+    border: 15px;
+    padding: 10px;
+    border-collapse: collapse;
+    width: 1500px;
+    border-radius: 20px;
+}
+.displayTable button{
+    display: block;
+    background-color: #F1B5B8;
+    border-radius: 28px;
+    border: solid;
+    display: inline-block;
     cursor: pointer;
+    font-family: 'Roboto Slab', serif;
+    margin: 20px;
+    border: 20px;
+    padding: 16px 31px;
+    font-size: 25px;
+    font-weight:900;
+    border: 3px solid black;
 }
-.newEntry h3{
-    text-decoration: underline;
-}
+
+
+
 
 
 
@@ -141,7 +156,7 @@ body{
 
 footer{
     position: absolute;
-    top: 1600px;
+    top: 1700px;
     width: 98.52%;
     height: 2.5rem;
     background: #4d4949;
